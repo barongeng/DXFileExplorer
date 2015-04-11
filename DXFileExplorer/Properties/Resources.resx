@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="SureToDeleteMessage" xml:space="preserve">
+    <value>Are you about to delete the {0} {1}?</value>
+  </data>
+  <data name="NavigationPageText" xml:space="preserve">
+    <value>Navigation</value>
+  </data>
+  <data name="DXFileExplorer" xml:space="preserve">
+    <value>DX File Explorer</value>
+    <comment>DXFileExplorer description</comment>
+  </data>
+  <data name="NavigationPageShortcutsGroupText" xml:space="preserve">
+    <value>Shortcuts</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="favicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\favicon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NavPaneGroupCaptionWindows" xml:space="preserve">
+    <value>Windows</value>
+  </data>
+  <data name="ConsoleCaption" xml:space="preserve">
+    <value>Console</value>
+  </data>
+  <data name="NavPaneGroupCaptionDrives" xml:space="preserve">
+    <value>Drives</value>
+  </data>
+  <data name="DefaultNetworkLocationName" xml:space="preserve">
+    <value>Location {0}</value>
+  </data>
+  <data name="NetworkLocationsGroupText" xml:space="preserve">
+    <value>Network Locations</value>
+  </data>
+  <data name="NetworkLocationsItemAddText" xml:space="preserve">
+    <value>Add Location</value>
+  </data>
+  <data name="NetworkLocationsItemRemoveText" xml:space="preserve">
+    <value>Remove Location</value>
+  </data>
+  <data name="DuplicateNetworkLocationName" xml:space="preserve">
+    <value>The network location with the name {0} already exists.</value>
+  </data>
+  <data name="DefaultArchivatorGroupText" xml:space="preserve">
+    <value>Archiver</value>
+  </data>
+  <data name="DefaultArchivatorItemCompress" xml:space="preserve">
+    <value>Compress</value>
+  </data>
+  <data name="DefaultArchivatorItemDecompress" xml:space="preserve">
+    <value>Decompress</value>
+  </data>
+  <data name="Default_FileSystem_Copy_Continue" xml:space="preserve">
+    <value>Do you want to continue?</value>
+  </data>
+  <data name="Default_FileSystem_GuiCallback_Directory" xml:space="preserve">
+    <value>directory</value>
+  </data>
+  <data name="Default_FileSystem_GuiCallback_File" xml:space="preserve">
+    <value>file</value>
+  </data>
+  <data name="Default_FileSystem_OperationName_Copy" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="Default_FileSystem_OperationName_Move" xml:space="preserve">
+    <value>Move</value>
+  </data>
+  <data name="Default_FileSystem_UnexpectedDialogResult" xml:space="preserve">
+    <value>Unexpected dialog result.</value>
+  </data>
+  <data name="Default_FileSystem_UnsupportedOperation" xml:space="preserve">
+    <value>Unsupported file operation.</value>
+  </data>
+  <data name="Default_Viewer_Command_Edit" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Default_Viewer_Command_Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Default_Viewer_Command_View" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="Default_Viewer_GroupText" xml:space="preserve">
+    <value>Viewer</value>
+  </data>
+  <data name="Default_FileSystem_GroupText" xml:space="preserve">
+    <value>Files and Folders</value>
+  </data>
+  <data name="Default_FileSystem_ItemCopyText" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="Default_FileSystem_ItemDeleteText" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Default_FileSystem_ItemMakeFolderText" xml:space="preserve">
+    <value>Make Folder</value>
+  </data>
+  <data name="Default_FileSystem_ItemMoveText" xml:space="preserve">
+    <value>Move</value>
+  </data>
+  <data name="Default_FileSystem_ItemRenameText" xml:space="preserve">
+    <value>Rename</value>
+  </data>
+  <data name="Default_FileSystem_Sort_ByCreationDate" xml:space="preserve">
+    <value>Creation Date</value>
+  </data>
+  <data name="Default_FileSystem_Sort_ByName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Default_FileSystem_Sort_Group" xml:space="preserve">
+    <value>Sort by</value>
+  </data>
+</root>

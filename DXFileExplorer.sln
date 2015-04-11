@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DXFileExplorer", "DXFileExplorer\DXFileExplorer.csproj", "{7B61D0D5-55A9-418C-9CC5-336D8B00F880}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DXFileExplorer.UranusPack", "DXFileExplorer.UranusPack\DXFileExplorer.UranusPack.csproj", "{5B686311-FA2D-46EA-B614-B4F10C82E1D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DXFileExplorer.Public", "DXFileExplorer.Public\DXFileExplorer.Public.csproj", "{2C977E78-2521-436F-8714-99C382DE202B}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccLocalPath0 = .
+		SccLocalPath1 = .
+		SccLocalPath2 = .
+		SccLocalPath3 = .
+		SccNumberOfProjects = 4
+		SccProjectFilePathRelativizedFromConnection1 = DXFileExplorer\\
+		SccProjectFilePathRelativizedFromConnection2 = DXFileExplorer.UranusPack\\
+		SccProjectFilePathRelativizedFromConnection3 = DXFileExplorer.Public\\
+		SccProjectUniqueName1 = DXFileExplorer\\DXFileExplorer.csproj
+		SccProjectUniqueName2 = DXFileExplorer.UranusPack\\DXFileExplorer.UranusPack.csproj
+		SccProjectUniqueName3 = DXFileExplorer.Public\\DXFileExplorer.Public.csproj
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C977E78-2521-436F-8714-99C382DE202B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C977E78-2521-436F-8714-99C382DE202B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C977E78-2521-436F-8714-99C382DE202B}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{2C977E78-2521-436F-8714-99C382DE202B}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{2C977E78-2521-436F-8714-99C382DE202B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2C977E78-2521-436F-8714-99C382DE202B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C977E78-2521-436F-8714-99C382DE202B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C977E78-2521-436F-8714-99C382DE202B}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{2C977E78-2521-436F-8714-99C382DE202B}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{2C977E78-2521-436F-8714-99C382DE202B}.Release|x86.ActiveCfg = Release|Any CPU
+		{5B686311-FA2D-46EA-B614-B4F10C82E1D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B686311-FA2D-46EA-B614-B4F10C82E1D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B686311-FA2D-46EA-B614-B4F10C82E1D7}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{5B686311-FA2D-46EA-B614-B4F10C82E1D7}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{5B686311-FA2D-46EA-B614-B4F10C82E1D7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5B686311-FA2D-46EA-B614-B4F10C82E1D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B686311-FA2D-46EA-B614-B4F10C82E1D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B686311-FA2D-46EA-B614-B4F10C82E1D7}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{5B686311-FA2D-46EA-B614-B4F10C82E1D7}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{5B686311-FA2D-46EA-B614-B4F10C82E1D7}.Release|x86.ActiveCfg = Release|Any CPU
+		{7B61D0D5-55A9-418C-9CC5-336D8B00F880}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{7B61D0D5-55A9-418C-9CC5-336D8B00F880}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{7B61D0D5-55A9-418C-9CC5-336D8B00F880}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{7B61D0D5-55A9-418C-9CC5-336D8B00F880}.Debug|x86.ActiveCfg = Debug|x86
+		{7B61D0D5-55A9-418C-9CC5-336D8B00F880}.Debug|x86.Build.0 = Debug|x86
+		{7B61D0D5-55A9-418C-9CC5-336D8B00F880}.Release|Any CPU.ActiveCfg = Release|x86
+		{7B61D0D5-55A9-418C-9CC5-336D8B00F880}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{7B61D0D5-55A9-418C-9CC5-336D8B00F880}.Release|Mixed Platforms.Build.0 = Release|x86
+		{7B61D0D5-55A9-418C-9CC5-336D8B00F880}.Release|x86.ActiveCfg = Release|x86
+		{7B61D0D5-55A9-418C-9CC5-336D8B00F880}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

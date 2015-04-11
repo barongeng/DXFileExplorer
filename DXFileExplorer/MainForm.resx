@@ -1,0 +1,310 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ribbon.ApplicationButtonText" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="rgbiSkins.Caption" xml:space="preserve">
+    <value>Skin Gallery</value>
+  </data>
+  <data name="bbiCloseActiveView.Caption" xml:space="preserve">
+    <value>Close Active View</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="ribbon.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="rpgAppearance.Text" xml:space="preserve">
+    <value>Appearance</value>
+  </data>
+  <data name="rpView.Text" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="ribbon.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1168, 147</value>
+  </data>
+  <data name="&gt;&gt;ribbon.Name" xml:space="preserve">
+    <value>ribbon</value>
+  </data>
+  <data name="&gt;&gt;ribbon.Type" xml:space="preserve">
+    <value>DXFileExplorer.Controls.Bars.Ribbon.CustomRibbonControl, DXFileExplorer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=3310206a3bdbcea6</value>
+  </data>
+  <data name="&gt;&gt;ribbon.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ribbon.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="navPane.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="navPane.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 147</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="resource.ExpandedWidth" type="System.Int32, mscorlib">
+    <value>140</value>
+  </data>
+  <data name="navPane.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 431</value>
+  </data>
+  <data name="navPane.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="navPane.Text" xml:space="preserve">
+    <value>navBarControl1</value>
+  </data>
+  <data name="&gt;&gt;navPane.Name" xml:space="preserve">
+    <value>navPane</value>
+  </data>
+  <data name="&gt;&gt;navPane.Type" xml:space="preserve">
+    <value>DevExpress.XtraNavBar.NavBarControl, DevExpress.XtraNavBar.v11.1, Version=11.1.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;navPane.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;navPane.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="DockManager.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1168, 578</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAQAAAAIAAAACQAAAAsAAAALAAAACwAAAAsAAAALAAAADAAA
+        AAwAAAAMAAAADAAAAAwAAAAMAAAADQAAAA0AAAANAAAADQAAAA0AAAAOAAAADgAAAA4AAAAOAAAADQAA
+        AAsAAAAGAAAAAgAAAAEAAAAAAAAAAAAAAAEAAAAHAAAAEgAAAB4AAAAmAAAAKQAAACoAAAArAAAAKwAA
+        ACwAAAAtAAAALgAAAC4AAAAvAAAAMAAAADEAAAAyAAAAMgAAADMAAAA0AAAANAAAADUAAAA2AAAANwAA
+        ADcAAAA1AAAAKwAAABsAAAAKAAAAAgAAAAAAAAAAAAAABAAAABF3SCVmo2M07aZlNP+mZDP/DYFT/w2A
+        Uv8Nf1H/DH5P/wx9Tf8MfEz/C3pK/wp3Sf8Kdkf/CXRG/whzQ/8IcUL/CG9B/wduQP8Haz7/Bmo9/wZo
+        PP8GaDv/mVcn/5hWJv+SUyXwXTQXdQAAABoAAAAGAAAAAQAAAAEAAAAHAAAAG6RkNOvRpXv/1aqB/9Wq
+        gP9fhl7/T8Se/07DnP9Mwpv/S76Z/0u8lv9Iu5P/R7iQ/0W1jf9DsYv/Qq+H/0Gshf8/qoP/PaeA/zuk
+        fv87o3v/OaF5/1BxSv/Cj17/wY1c/7yFVP+RUiTuAAAAKwAAAAsAAAABAAAAAQAAAAgAAAAgqmg3/9iu
+        hP/HkWD/yJBg/2CGX/86uo//ObmN/zi3i/83tYj/NbKG/zSvg/8zrID/Mal+/y+lev8tonb/LaB0/yuc
+        cf8pmm7/KJZs/yiUaP8nkmb/UHJK/7yEUf+7g1D/wY1c/5hWJv8AAAAzAAAADAAAAAEAAAABAAAACAAA
+        ACGraTn/2a+H/8mSYv/JkmL/rHZU//ju6//47ur/9+3p//bt6f/27Oj/9+vn//br5v/16uX/9enk//bp
+        4//06OL/9Ofi//Xm4f/05uH/9OXg//Tl3/+WY0L/vYVS/7yEUf/Dj17/mFcn/wAAADUAAAAOAAAAAQAA
+        AAEAAAAIAAAAIKxpOf/asov/ypNk/8qTY/+ud1X/+PDt//jw7P/47+v/9+7r//ju6v/37en/9+zo//br
+        6P/26+b/9urm//bq5f/26OT/9ejj//To4v/15+H/9Obg/5djQ/++hlP/vYVS/8SQX/+aVyf/AAAANAAA
+        AA0AAAABAAAAAQAAAAcAAAAerGo6/+XEpf/RnnH/zJVl/695Vv/58u//+fLu/8Gknf+9oJn/upyV/7iY
+        kP+0k4z/sY+I/66Mg/+qh4D/p4N7/6R/d/+he3P/n3hv//Xo5P/15+L/l2RD/7+GVP++hlP/xZJi/5lX
+        KP8AAAAzAAAADQAAAAEAAAABAAAABwAAAB2tazv/6Myv/9y0jf/ZrYT/sHpX//n18f/69PH/+vPw//ny
+        7//58e7/+PHu//jw7f/47+z/+O7r//fu6v/37un/9+3o//fs5//26+b/9uvl//bq5f+YZUT/v4hV/76G
+        VP/Gk2T/mlkp/wAAADIAAAANAAAAAQAAAAEAAAAHAAAAHK5sO//pz7L/3rWQ/920jv+xe1j/+/j2//r2
+        9P/FqqT/w6eh/8Gjnf++n5n/u5yU/7iXkf+0lIz/sZCI/66LhP+qiH//qIN7/6R/d//27Oj/9uvm/5pm
+        RP/AiFf/wIhV/8eVZv+bWSn/AAAAMQAAAAwAAAABAAAAAQAAAAcAAAAbr2w8/+vQtv/fuZP/3reR/7J8
+        Wv/8+fj//Pn3//v39v/69vP/+vXy//n18v/69PH/+vPw//ny7//58u7/+PHt//jw7P/48Ov/+O7r//ju
+        6v/37un/mmdG/8KJWP/BiFb/yJdo/5tZKf8AAAAvAAAADAAAAAEAAAABAAAABgAAABqwbj3/7NG5/+G6
+        lv/guZT/s31a//z7+v/9+vj/2MS//9W/uf/Irqj/w6eg/8GknP+9oJn/u5yV/7eXkf+1lIz/sY+I/62L
+        hP+qh4D/+PDs//jv7P+caEb/wopY/8GJV//JmGr/nFoq/wAAAC4AAAAMAAAAAQAAAAEAAAAGAAAAGLBv
+        Pf/t1Lz/47yZ/+K7l/+0flv//fv6//37+v/9+/n//fv4//z6+P/7+fb/+/f1//v39P/69vP/+vXy//r0
+        8v/59PH/+fPw//ny7//58u7/+fHt/51pSP/Di1n/wopY/8qZa/+dWyr/AAAALQAAAAsAAAABAAAAAQAA
+        AAYAAAAXsW8+/+/Wvv/kv5z/5L6b/7Z+W//9+/r//fv6//37+v/8+/n//fv5//z7+P/8+ff/+/j1//v4
+        9f/79/T/+vb0//r18v/69fL/+vTx//n08f/58/D/n2tJ/8OMWv/Diln/y5xu/51cK/8AAAAsAAAACwAA
+        AAEAAAABAAAABQAAABaybz//79jA/+bBnv/lwJ3/wpBs/7V+W/+0fVv/tH1a/7N8Wf+xe1j/sXpY/695
+        Vv+td1X/rHZU/6p1U/+pdFL/qHNR/6ZxT/+kb03/o25N/6FtS/+qdU//xY1b/8OLWv/NnXD/nlws/wAA
+        ACoAAAALAAAAAQAAAAAAAAAFAAAAFbJwP//w2sP/58Oi/+bCn//lwZ7/5b+c/+S9mv/jvJj/4rqW/+G5
+        k//gtpH/3rWO/9yzjP/YqoH/z5lq/82XZ//Mlmb/y5Vk/8mTY//JkWH/x5Bg/8aPXv/FjVz/xIxb/82e
+        cf+eXS3/AAAAKQAAAAoAAAABAAAAAAAAAAUAAAAUs3FA//Hcxf/oxaP/58Si/+fCoP/lwZ//5cCd/+S9
+        mv/kvJj/4ruW/+G5lP/ft5H/3rSO/9yzjP/YqH7/z5hp/82WZ//MlWb/y5Rj/8mTYv/IkWD/x5Bf/8aO
+        Xf/EjVz/z59z/6BeLf8AAAAoAAAACgAAAAEAAAAAAAAABAAAABOzckH/8tzH/+nHpv/pxqX/68ur/+3N
+        rf/szKr/7Muo/+vJpf/ryKX/6cei/+jFoP/owp3/5sKa/+W/mf/gtYr/2ql3/9modv/YpnT/16Rz/9Wj
+        cf/VonD/0Jxp/8SNXf/PoXT/oF4u/wAAACYAAAAKAAAAAQAAAAAAAAAEAAAAErRzQv/y3sr/6sio/+nI
+        p//FjWH/s3FA/6BnRv+XYUj/lV9F/5NeRP+RXEL/kFpB/45YQP+MWD7/jFY9/4lUPP+IUzr/hlI5/4VQ
+        OP+FTzb/g042/5VeP//UoW//xY5d/9Gjdv+hXy//AAAAJQAAAAkAAAABAAAAAAAAAAQAAAARtXJC//Pg
+        y//ryqr/68ip/7RyQv+6fEz/oGxU//Hj4P/p0s//59HN/+bQy//kzsr/48zI/+LLxv/gycT/38fC/+XR
+        zP/iz8r/4c3I/+DKxf/Yv7r/g042/9SicP/Gj13/0aR3/6FgMP8AAAAkAAAACQAAAAEAAAAAAAAABAAA
+        AA+2c0L/9OLO/+vMrf/ry6v/tHNC/7p8TP+iblX/8+Xi/+rU0P/o0s7/59HN/+bPzP/kzsn/48zI/+LK
+        xv+SX0X/kFxE/49cQ/+NWkH/4MzI/9nAu/+FTjb/1KJw/8aPX//SpXr/o2Ew/wAAACMAAAAJAAAAAQAA
+        AAAAAAADAAAADrZ0Q//14s//7c2w/+zMrv+2c0P/u3xN/6NvVv/58vL/8+bk//Hj4P/t3Nn/6dPQ/+bP
+        y//kzsn/48zI/5RhR/+ubDz/rGk6/49bQ//izsr/28K9/4VPN//VonH/x49f/9Kme/+jYTH/AAAAIQAA
+        AAkAAAABAAAAAAAAAAMAAAANtnRD//Xj0f/uzrH/7c2w/7ZzQ/+7fE3/pHBY//nz8v/26+n/9enn//Tp
+        5v/z6OX/7t7c/+fSz//lzsn/lmFI/7FvP/+vbT3/kV1E/+TQzf/cxL//hlA5/9aicf/HkF//1Kh9/6Ri
+        Mv8AAAAgAAAACAAAAAEAAAAAAAAAAwAAAAy3dET/9uTT/+/Psv/uz7H/t3RD/7x+Tv+mcln/+vTy//br
+        6v/16+n/9ern//Tp5//z5+b/8ubk/+nX0/+XY0r/tHJC/7JwQP+SXkX/5tPP/97FwP+HUjn/1qNx/8eQ
+        X//VqH7/pWMz/wAAAB8AAAAIAAAAAQAAAAAAAAADAAAAC7d2RP/25dT/79Gz/+7Qsv+2dUP/vH5P/6d0
+        W//69PT/9+zq//br6v/16uj/9ern//Tp5v/06OX/8+fl/5hlS/+2dET/tXJC/5RgRv/n1dL/38fC/4hT
+        O//Wo3H/yJFg/9Wqf/+mZDP/AAAAHQAAAAgAAAABAAAAAAAAAAIAAAAKt3VF//fm1f/w0rX/79Gz/7Z1
+        RP+9f0//qHVb//v19P/37ev/9+zq//br6f/26+n/9enn//Tp5//z6Ob/mWZN/5hkS/+XY0n/lWBI/+HK
+        xf/gycP/ilU8/9ajcv/IkGD/1aqB/6dlNf8AAAAbAAAABwAAAAEAAAAAAAAAAgAAAAe3dUTp6s+3//bm
+        1f/25dT/xY5g/8eQZP+xhG3/+/X0//v19P/69PT/+vTy//nz8v/58vL/+fLw//jx7//38O7/9u7t/+7f
+        3f/t29j/69rW/+nY1P+XaVH/4r2V/9ithP/MnHL/pGM06wAAABQAAAAFAAAAAAAAAAAAAAABAAAABKNp
+        PUe0dETNuHZE/7d1RP+3dUT/tnRE/6lwT/+ibVP/oW1R/6BqUP+faU//nWdN/5xmTP+aZEv/mGNJ/5di
+        R/+VYEb/lF9F/5NdRP+RW0L/j1pB/5ZdPf+raDj/qmg4/6JjNNJ+TChUAAAACwAAAAMAAAAAAAAAAAAA
+        AAAAAAABAAAAAwAAAAYAAAAJAAAACgAAAAoAAAALAAAADAAAAAwAAAANAAAADQAAAA4AAAAPAAAADwAA
+        ABAAAAARAAAAEQAAABIAAAATAAAAEwAAABQAAAAVAAAAFQAAABYAAAAVAAAAEQAAAAoAAAAEAAAAAQAA
+        AAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAIAAAACAAAAAgAAAAMAAAADAAAAAwAAAAMAAAADAAAAAwAA
+        AAMAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAFAAAABQAAAAUAAAAFAAAABQAAAAUAAAAEAAAAAgAA
+        AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA
+        AAAAAAAAAAAAAAAAAAAAAAAA////////////////8AAAD+AAAAfgAAAH4AAAB+AAAAfgAAAH4AAAB+AA
+        AAfgAAAH4AAAB+AAAAfgAAAH4AAAB+AAAAfgAAAH4AAAB+AAAAfgAAAH4AAAB+AAAAfgAAAH4AAAB+AA
+        AAfgAAAH4AAAB/AAAA////////////////8=
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>DX File Explorer</value>
+  </data>
+  <data name="&gt;&gt;rgbiSkins.Name" xml:space="preserve">
+    <value>rgbiSkins</value>
+  </data>
+  <data name="&gt;&gt;rgbiSkins.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.RibbonGalleryBarItem, DevExpress.XtraBars.v11.1, Version=11.1.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;bbiCloseActiveView.Name" xml:space="preserve">
+    <value>bbiCloseActiveView</value>
+  </data>
+  <data name="&gt;&gt;bbiCloseActiveView.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.BarButtonItem, DevExpress.XtraBars.v11.1, Version=11.1.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rpView.Name" xml:space="preserve">
+    <value>rpView</value>
+  </data>
+  <data name="&gt;&gt;rpView.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPage, DevExpress.XtraBars.v11.1, Version=11.1.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;rpgAppearance.Name" xml:space="preserve">
+    <value>rpgAppearance</value>
+  </data>
+  <data name="&gt;&gt;rpgAppearance.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonPageGroup, DevExpress.XtraBars.v11.1, Version=11.1.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;DockManager.Name" xml:space="preserve">
+    <value>DockManager</value>
+  </data>
+  <data name="&gt;&gt;DockManager.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Docking.DockManager, DevExpress.XtraBars.v11.1, Version=11.1.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Ribbon.RibbonForm, DevExpress.XtraBars.v11.1, Version=11.1.12.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+</root>
