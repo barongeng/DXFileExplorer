@@ -42,7 +42,7 @@ namespace DXFileExplorer.Controllers {
         FileSystemViewDataSource Source;
         bool Disposed;
         bool SkipSortItemClick;
-        char CurrentSortDirection = SortSignDescending;
+        char CurrentSortDirection = SortSignAscending;
         string SortingMember = "Name";
 
         public FileSystemController(MainForm container) : base(container) {
@@ -197,15 +197,13 @@ namespace DXFileExplorer.Controllers {
             try {
                 source.Source.Clear();
                 IEnumerable<FileSystemItem> data = DataLayer.GetFileSystemItemsFromDirectory(path);
-                if (View != null) {
-                    IQueryable q = data.AsQueryable();
-                    ParameterExpression p = Expression.Parameter(typeof(FileSystemItem));
-                    LambdaExpression l = Expression.Lambda(Expression.MakeMemberAccess(p, typeof(FileSystemItem).GetProperty(SortingMember)), p);
-                    data = q.Provider.CreateQuery<FileSystemItem>(Expression.Call(typeof(Queryable),
-                        SortingDirection == SortingDirection.Ascending ? "OrderBy" : "OrderByDescending",
-                        new Type[] { q.ElementType, l.Body.Type },
-                        q.Expression, Expression.Quote(l)));
-                }
+                IQueryable q = data.AsQueryable();
+                ParameterExpression p = Expression.Parameter(typeof(FileSystemItem));
+                LambdaExpression l = Expression.Lambda(Expression.MakeMemberAccess(p, typeof(FileSystemItem).GetProperty(SortingMember)), p);
+                data = q.Provider.CreateQuery<FileSystemItem>(Expression.Call(typeof(Queryable),
+                    SortingDirection == SortingDirection.Ascending ? "OrderBy" : "OrderByDescending",
+                    new Type[] { q.ElementType, l.Body.Type },
+                    q.Expression, Expression.Quote(l)));
                 data.OrderBy(i => i.ItemType).ToList().ForEach(i => source.Source.Add(i));
                 source.Path = path;
             } finally {
